@@ -94,11 +94,11 @@ export default function Chats() {
     }
     function goBack(){
         setIsChatting(false)
+        setMessages([])
     }
     function deleteChat(props){
         var chat = firebase.database().ref('chats/'+props.chatKey)
         chat.remove()
-        window.location.reload();
     }
 
     function updateScroll(){
