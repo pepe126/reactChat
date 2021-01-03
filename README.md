@@ -29,9 +29,15 @@ npm start
 L'app consente di:
 
 -Creare o accedere al proprio profilo
+
 -Cercare amici tramite username
+
 -Mandare richieste di amicizia
+
 -Accettare/Rifiutare richieste di amicizia
+
 -Avviare una chat con uno degli utenti amici
+
 -Mandare e ricevere messaggi
+
 -Eliminare la chat in questione
