@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+.visual{
+    height: 95vh;
+    margin-top: 2vh;
+    max-width: 100.5%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chatinput{
+    position:absolute;
+    bottom: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.msg-receiver{
+    padding: 1vh;
+    border-style: solid;
+    border-color: #3700B3;
+    border-radius: 5px;
+    max-width: 100vh;
+    overflow-wrap: break-word;
+
+}
+.msg-sender{
+    padding: 1vh;
+    border-style: solid;
+    border-color:#BB86FC;
+    border-radius: 5px;
+    max-width: 100vh;
+    overflow-wrap: break-word;
+}
+.chats{
+    background-color: #1E1E1E;
+    color: #ffffff;
+    border-radius: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.alreadyChatting{
+    background-color:#BB86FC !important;
+    color: #000000;
+    border-color: #000000 !important;
+}
+.alreadyChatting:hover{
+    background-color:#121212 !important;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.redBtn{
+    background-color: #CF6679 !important;
+    color: #000000 !important;
+}
+.redBtn:hover{
+    background-color: #121212 !important;
+    color: #CF6679 !important;
+
+}
+.searchFriends{
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
   color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+.chatContainer{
+    display: flex !important;
+}
+.circularBtn{
+    border-radius: 30% !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.backBtn{
+    color: #03DAC6;
+}
+
+.backBtn:hover{
+    cursor: pointer;
+}
+
+.msgsBox{
+    overflow-y: auto;
+    max-height: 70vh;
+    
+}
+.msgsBox::-webkit-scrollbar {
+    display: none;
+}
+
+.messageInput{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+ .greenIcon{
+    color: #03DAC6;
+}
+
+.clickable:hover{
+    cursor: pointer;
+}
+
+.redIcon{
+    color: #CF6679;
+}
+
+.authComp{
+    padding-right: 5vh;
+    padding-left: 5vh;
+    padding-bottom: 5vh;
+    padding-top: 2vh;
+    background-color: #1E1E1E !important;
+    color: #ffffff;
+}
+
+.authScritte{
+    color: #ffffff;
+}
+
+.authBtn{
+    background-color: #3700B3 !important;
+    color: #ffffff !important;
+}
+
+.authBtn:hover{
+    background-color: #BB86FC !important;
+    color: #000000 !important;
+}
+
+
+.link{
+    color:#BB86FC ;
+}
+
+.link:hover{
+    color: #03DAC6;
 }
