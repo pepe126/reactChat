@@ -32,7 +32,7 @@ function Login(props) {
                 password: passwordRef.current.value    
             })
             
-        } catch {
+        }catch{
             setError('Failed to sign in')
         }
         setLoading(false)
