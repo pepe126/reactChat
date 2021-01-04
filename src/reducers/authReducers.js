@@ -4,6 +4,8 @@ const initialState = {
     user: {}
 }
 
+//reducer per azioni di autenticazione
+
 export default function (state = initialState, action) {
     switch(action.type){
         case LOGIN:

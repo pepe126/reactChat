@@ -7,6 +7,8 @@ import Friends from './frontpage/Friends'
 import Settings from './frontpage/Settings'
 
 function Dashboard(props) {
+
+    //la dashboard checka l'utente loggato al caricamento per salvare lo stato nello store
     useEffect(()=>{
         props.checkUser()
     },[])

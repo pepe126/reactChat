@@ -35,6 +35,7 @@ export const signup = signupData => dispatch => {
     ))
 }
 
+//check se l'user è loggato
 export const checkUser = () => dispatch => {
     auth.onAuthStateChanged(user => dispatch({
         type: CHECK_USER,
